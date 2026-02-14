@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fieldset and Legend Example</title>
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+
+    <form action="#" method="post">
+
+        <!-- Personal Information Group -->
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            Full Name:<br>
+            <input type="text" name="fullname"><br><br>
+
+            Email:<br>
+            <input type="email" name="email"><br><br>
+
+            Phone Number:<br>
+            <input type="tel" name="phone"><br><br>
+        </fieldset>
+
+        <br>
+
+        <!-- Academic Information Group -->
+        <fieldset>
+            <legend>Academic Information</legend>
+
+            Course:<br>
+            <select name="course">
+                <option>BCA</option>
+                <option>BSc IT</option>
+                <option>BCom</option>
+            </select>
+            <br><br>
+
+            Year:<br>
+            <input type="radio" name="year" value="First"> First Year
+            <input type="radio" name="year" value="Second"> Second Year
+            <input type="radio" name="year" value="Third"> Third Year
+            <br><br>
+        </fieldset>
+
+        <br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
